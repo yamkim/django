@@ -79,6 +79,16 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+# databases = {
+#     'default': {
+#         'engine': 'django.db.backends.mysql',
+#         'name': 'django_tutorial',
+#         'user': 'yekim',
+#         'password': '5933',
+#         'host': 'localhost',
+#         'port': '3306'
+#     }
+# }
 
 
 # Password validation
